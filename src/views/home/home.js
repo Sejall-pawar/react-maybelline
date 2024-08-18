@@ -4,14 +4,21 @@ import "./home.css";
 
 const cardContainer = {
     width: "250px",
-    border: "2px solid black",
+    border: "1px solid #ffe066",
+    backgroundColor : "#ffffcc"
 }
 
 function home() {
   return (
     <div>
         <h1 style={{
-          textAlign: "center"
+          textAlign: "center",
+          fontSize: "30px",
+          backgroundColor: "#ffdb4d",
+          margin:"10px 44%",
+          padding:"10px",
+          borderRadius:"10px",
+          marginBottom:"20px"
           }}>
           Maybelline
           </h1>

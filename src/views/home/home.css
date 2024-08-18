@@ -15,5 +15,15 @@
 
 .btn{
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
+    height: 40px;
+    font-size: 15px;
+    background-color: #c6ffb3;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #99ff99;
+    cursor: pointer;
 }
